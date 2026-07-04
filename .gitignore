@@ -1,18 +1,29 @@
-# Virtual Environment
+# Python
 venv/
-
-# Python cache
 __pycache__/
-*.py[cod]
+*.pyc
+
+# Dataset (DO NOT TRACK)
+Dataset/
+Processed_Dataset/
+
+# Model files
+Models/
+*.h5
+*.keras
+*.tflite
+*.onnx
+*.pth
+
+# Training results
+Results/
 
 # VS Code
 .vscode/
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Environment files
-.env
+# OS
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
